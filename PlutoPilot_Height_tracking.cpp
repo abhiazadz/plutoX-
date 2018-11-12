@@ -63,7 +63,7 @@ void plutoPilot()
 //hardcoded matrix H[] for vertical height tracking, with n= no of track points
 	i=0
 	n=14;
-	H[10]=(10,50,100,200,250,300,500,400,300,200,100,500,10);
+	H[10]=(10,100,50,200,150,300,200,500,250,300,100,50,10);
 
 	Althold.activateAlthold;
 	if(i<=n)
